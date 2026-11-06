@@ -13,14 +13,13 @@ Draw in the air using only your webcam and hand gestures. Fully controlled throu
 
 ## Features
 
-- Real-time hand tracking using MediaPipe
-- Draw with **Index finger**
-- Eraser mode with **Thumb**
-- On-screen **color palette** (touch to select color)
-- On-screen buttons: **Clear**, **Save**, **Exit**
+- Real-time hand tracking with MediaPipe
+- Draw with Index finger
+- Eraser with Thumb
+- On-screen color palette (touch to select)
+- On-screen buttons: Clear / Save / Exit
 - Fully gesture-controlled interface
-- Clean and modular architecture
-- Live status indicator (DRAWING / ERASER / READY)
+- Clean modular architecture
 
 ---
 
@@ -74,15 +73,14 @@ python main.py
 
 ## Controls
 
-| Action              | How to perform                                      |
-|---------------------|-----------------------------------------------------|
-| **Draw**            | Raise only the **Index finger**                     |
-| **Eraser**          | Raise only the **Thumb**                            |
-| **Change Color**    | Point Index finger to a color box on the top bar    |
-| **Clear Canvas**    | Point to the **CLEAR** button                       |
-| **Save Drawing**    | Point to the **SAVE** button                        |
-| **Exit Program**    | Point to the **EXIT** button                        |
-| Force Quit          | Press `q` or `Esc` on keyboard                      |
+| Action              | Gesture / Interaction                     |
+|---------------------|-------------------------------------------|
+| Draw                | Raise only Index finger                   |
+| Eraser              | Raise only Thumb                          |
+| Change Color        | Point Index finger to a color box         |
+| Clear Canvas        | Point to **CLEAR** button                 |
+| Save Drawing        | Point to **SAVE** button                  |
+| Exit Program        | Point to **EXIT** button                  |
 
 ---
 
